@@ -14,7 +14,6 @@
 机堡6 revetmentAircraft_6标签178个，
 机堡7 revetmentAircraft_7标签760个，
 机堡8 revetmentAircraft_8标签2964个共8类机堡。
-/All_data 文件夹下存放所有png文件及xml文件，以及所有标签在图像上的可视化结果。
 /images 文件夹下为基于YOLOv5网络分类的训练集、验证集及测试集。
 /labels 文件夹下为对应的YOLOv5网络模型可识别的标签。
 可直接通过指令调用carven.yaml文件实现对YOLOv5网络模型的训练。
