@@ -1,1 +1,20 @@
 # Airport-Target-Dataset
+本数据集中共有标签xml文件14011个，图片png文件14011个，共有目标13类，总标签数量64574个，
+其中，基础设施目标11类，毁伤弹坑目标2类，具体各类目标名称及标签数量如下所示：
+机堡弹坑Damage_revetmentAircraft标签12324个，
+跑道弹坑Damage_airstript标签4829个,
+战斗机fighter标签2684个，
+特种飞机specialAircraft标签9902个，
+油罐oilTank标签10278个；
+机堡1 revetmentAircraft_1标签6357个，
+机堡2 revetmentAircraft_2标签4134个，
+机堡3 revetmentAircraft_3标签2781个，
+机堡4 revetmentAircraft_4标签3557个，
+机堡5 revetmentAircraft_5 标签3826个，
+机堡6 revetmentAircraft_6标签178个，
+机堡7 revetmentAircraft_7标签760个，
+机堡8 revetmentAircraft_8标签2964个共8类机堡。
+/All_data 文件夹下存放所有png文件及xml文件，以及所有标签在图像上的可视化结果。
+/images 文件夹下为基于YOLOv5网络分类的训练集、验证集及测试集。
+/labels 文件夹下为对应的YOLOv5网络模型可识别的标签。
+可直接通过指令调用carven.yaml文件实现对YOLOv5网络模型的训练。
