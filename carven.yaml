@@ -1,0 +1,9 @@
+
+
+train: Airport-Target-Dataset/images/train
+val: Airport-Target-Dataset/images/val
+#test:  # test images (optional)
+
+# Classes
+nc: 13  # number of classes
+names: ["revetmentAircraft_1",'revetmentAircraft_2','revetmentAircraft_3','revetmentAircraft_4','revetmentAircraft_5','revetmentAircraft_6','revetmentAircraft_7','revetmentAircraft_8','specialAircraft','oilTank','fighter','Damage_revetmentAircraft','Damage_airstrip']  # class names
